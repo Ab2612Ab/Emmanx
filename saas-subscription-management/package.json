@@ -1,1 +1,23 @@
-{"name":"saas-subscription-management","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite","build":"tsc --noEmit && vite build","preview":"vite preview"},"dependencies":{"lucide-react":"latest","react":"latest","react-dom":"latest","recharts":"latest"},"devDependencies":{"@vitejs/plugin-react":"latest","typescript":"latest","vite":"latest"}}
+{
+  "name": "saas-subscription-management",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest",
+    "@supabase/supabase-js": "^2.57.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
